@@ -27,5 +27,6 @@ namespace PalTracker
             Date = date;
             Hours = hours;
         }
+ 
     }
 }
