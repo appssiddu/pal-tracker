@@ -28,8 +28,7 @@ jobs:
     docker:
       - image: 'microsoft/dotnet:2.2-sdk'
         environment:
-          DEBIAN_FRONTEND: "noninteractive"
-          EXTRACT_DEST: 
+          DEBIAN_FRONTEND: "noninteractive"         
           ENVIRONMENT: review
     steps:
       - attach_workspace:
@@ -62,8 +61,7 @@ jobs:
     docker:
       - image: 'microsoft/dotnet:2.2-sdk'
         environment:
-          DEBIAN_FRONTEND: "noninteractive"
-          EXTRACT_DEST: 
+          DEBIAN_FRONTEND: "noninteractive"         
           ENVIRONMENT: production
     steps:
       - attach_workspace:
