@@ -4,8 +4,8 @@ applications:
   version: 2.2
   path: .\src\PalTracker\bin\Release\netcoreapp2.2\publish
   routes:
-    - route: pal-tracker-sid.apps.evans.pal.pivotal.io 
+    - route: msg-pal-tracker.apps.pikes.pal.pivotal.io 
   buildpacks: 
     - https://github.com/cloudfoundry/dotnet-core-buildpack.git#v2.2.8
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+    WELCOME_MESSAGE: Hello from the production environment
