@@ -4,7 +4,7 @@ applications:
   version: 2.2
   path: src/PalTracker/bin/Release/netcoreapp2.2/publish
   routes:
-    - route: msg-pal-tracker-review.apps.evans.pal.pivotal.io
+    - route: msg-pal-trackersid-review.apps.evans.pal.pivotal.io
   buildpacks: 
     - https://github.com/cloudfoundry/dotnet-core-buildpack.git#v2.2.8
   env:
