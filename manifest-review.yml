@@ -2,7 +2,7 @@
 applications:
 - name: pal-tracker
   version: 2.2
-  path: .\src\PalTracker\bin\Release\netcoreapp2.2\publish
+  path: src/PalTracker/bin/Release/netcoreapp2.2/publish
   routes:
     - route: pal-tracker-sid.apps.evans.pal.pivotal.io 
   buildpacks: 
