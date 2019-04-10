@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "36024ad544667db24a6f82db4a519bdc5799a64d"
+    "signature": "fb2224e86e6d51475e522145d065b42748011936"
   },
   "compilationOptions": {},
   "targets": {
@@ -48,6 +48,29 @@
           }
         }
       },
+      "Microsoft.DiaSymReader/1.2.0": {
+        "dependencies": {
+          "Microsoft.Net.Compilers": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.DiaSymReader.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.62216"
+          }
+        }
+      },
+      "Microsoft.DiaSymReader.PortablePdb/1.4.0": {
+        "dependencies": {
+          "Microsoft.DiaSymReader": "1.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.DiaSymReader.PortablePdb.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.62217"
+          }
+        }
+      },
+      "Microsoft.Net.Compilers/2.3.0": {},
       "Microsoft.NET.Test.Sdk/16.0.1": {
         "dependencies": {
           "Microsoft.CodeCoverage": "16.0.1",
@@ -320,6 +343,186 @@
           }
         }
       },
+      "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/debian.8-x64/native/_._": {
+            "rid": "debian.8-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/fedora.23-x64/native/_._": {
+            "rid": "fedora.23-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/fedora.24-x64/native/_._": {
+            "rid": "fedora.24-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "dependencies": {
+          "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2"
+        }
+      },
+      "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/opensuse.13.2-x64/native/_._": {
+            "rid": "opensuse.13.2-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/opensuse.42.1-x64/native/_._": {
+            "rid": "opensuse.42.1-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/osx.10.10-x64/native/_._": {
+            "rid": "osx.10.10-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/rhel.7-x64/native/_._": {
+            "rid": "rhel.7-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/ubuntu.14.04-x64/native/_._": {
+            "rid": "ubuntu.14.04-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/ubuntu.16.04-x64/native/_._": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+        "runtimeTargets": {
+          "runtime/ubuntu.16.10-x64/native/_._": {
+            "rid": "ubuntu.16.10-x64",
+            "assetType": "native"
+          }
+        }
+      },
+      "Steeltoe.Common/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Common.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Common.Http/2.1.0": {
+        "dependencies": {
+          "Steeltoe.Common": "2.1.0",
+          "System.Net.Http": "4.3.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Common.Http.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Extensions.Logging.DynamicLogger/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Extensions.Logging.DynamicLogger.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Management.CloudFoundryCore/2.1.0": {
+        "dependencies": {
+          "Steeltoe.Management.EndpointCore": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Management.CloudFoundryCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Management.Diagnostics/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Management.Diagnostics.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Management.EndpointBase/2.1.0": {
+        "dependencies": {
+          "Microsoft.DiaSymReader": "1.2.0",
+          "Microsoft.DiaSymReader.PortablePdb": "1.4.0",
+          "Steeltoe.Common": "2.1.0",
+          "Steeltoe.Common.Http": "2.1.0",
+          "Steeltoe.Extensions.Logging.DynamicLogger": "2.1.0",
+          "Steeltoe.Management.Diagnostics": "2.1.0",
+          "Steeltoe.Management.OpenCensus": "2.1.0",
+          "System.IO.FileSystem.DriveInfo": "4.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Management.EndpointBase.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Management.EndpointCore/2.1.0": {
+        "dependencies": {
+          "Steeltoe.Common.Http": "2.1.0",
+          "Steeltoe.Management.EndpointBase": "2.1.0",
+          "Steeltoe.Management.OpenCensus": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Management.EndpointCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Steeltoe.Management.OpenCensus/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Management.OpenCensus.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
       "System.ComponentModel/4.3.0": {},
       "System.ComponentModel.EventBasedAsync/4.0.11": {},
       "System.ComponentModel.Primitives/4.3.0": {
@@ -370,7 +573,36 @@
           }
         }
       },
+      "System.IO.FileSystem.DriveInfo/4.3.1": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
       "System.Linq.Queryable/4.3.0": {},
+      "System.Net.Http/4.3.3": {
+        "dependencies": {
+          "System.Net.Primitives": "4.3.0",
+          "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.2"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Net.Primitives/4.3.0": {},
       "System.Runtime.Loader/4.0.0": {},
       "System.Runtime.Serialization.Json/4.0.2": {},
       "System.Threading.ThreadPool/4.0.10": {},
@@ -441,6 +673,9 @@
         }
       },
       "PalTracker/1.0.0": {
+        "dependencies": {
+          "Steeltoe.Management.CloudFoundryCore": "2.1.0"
+        },
         "runtime": {
           "PalTracker.dll": {}
         }
@@ -473,6 +708,27 @@
       "sha512": "sha512-W7WI3iH6At2I/9x2ODgCIIMO0QfpA7ZCoHkeygMLAaz3Nms/GsugKz9N4hkTve2Lj66g2K4CAmbwe6utEH66lw==",
       "path": "microsoft.codecoverage/16.0.1",
       "hashPath": "microsoft.codecoverage.16.0.1.nupkg.sha512"
+    },
+    "Microsoft.DiaSymReader/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7TUxW72Hk7Ib/pimwUCix+4x56PKTu1c5uOuYnVYKYiocSKUIWbTBmiTTGgdUSqWd2+sRXrch8I8Vxo+iy1Puw==",
+      "path": "microsoft.diasymreader/1.2.0",
+      "hashPath": "microsoft.diasymreader.1.2.0.nupkg.sha512"
+    },
+    "Microsoft.DiaSymReader.PortablePdb/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CFqkxixBlcj+1VSgnkQNlNAuo1v9oloy4moQicnDZA2nZsXwrBmxDZsInKNL88ELq0i8IjFbP1hr/dD43fBqGA==",
+      "path": "microsoft.diasymreader.portablepdb/1.4.0",
+      "hashPath": "microsoft.diasymreader.portablepdb.1.4.0.nupkg.sha512"
+    },
+    "Microsoft.Net.Compilers/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aruWtSqj6jMc+Ky2X0WpWvKkj8fxcznpz/HibunkPmtGXRqbA/+h7WDDBVMktaSz2iZANSrOUGbRaMspQK7tgA==",
+      "path": "microsoft.net.compilers/2.3.0",
+      "hashPath": "microsoft.net.compilers.2.3.0.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/16.0.1": {
       "type": "package",
@@ -508,6 +764,139 @@
       "sha512": "sha512-YZ1yTTDkFdgjglo9v2Gy4jnWUUIPTQETCul9CDguydLYrVgQXr6L1n3CEJqy/S9kgX+Er0cRQixky2grMwtvxA==",
       "path": "moq/4.10.0",
       "hashPath": "moq.4.10.0.nupkg.sha512"
+    },
+    "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7VSGO0URRKoMEAq0Sc9cRz8mb6zbyx/BZDEWhgPdzzpmFhkam3fJ1DAGWFXBI4nGlma+uPKpfuMQP5LXRnOH5g==",
+      "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0oAaTAm6e2oVH+/Zttt0cuhGaePQYKII1dY8iaqP7CvOpVKgLybKRFvQjXR2LtxXOXTVPNv14j0ot8uV+HrUmw==",
+      "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G24ibsCNi5Kbz0oXWynBoRgtGvsw5ZSVEWjv13/KiCAM8C6wz9zzcCniMeQFIkJ2tasjo2kXlvlBZhplL51kGg==",
+      "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QR1OwtwehHxSeQvZKXe+iSd+d3XZNkEcuWMFYa2i0aG1l+lR739HPicKMlTbJst3spmeekDVBUS7SeS26s4U/g==",
+      "path": "runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I+GNKGg2xCHueRd1m9PzeEW7WLbNNLznmTuEi8/vZX71HudUbx1UTwlGkiwMri7JLl8hGaIAWnA/GONhu+LOyQ==",
+      "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Z3TAq1ytS1IBRtPXJvEUZdVsfWfeNEhBkbiOCGEl9wwAfsjP2lz3ZFDx5tq8p60/EqbS0HItG5piHuB71RjoA==",
+      "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mU/cVmmHtQiDXhnzUImxIcDL48GbTk+TsptXyJA+MIOG9LRjPoAQC/qBFB7X+UNyK86bmvGwC8t+M66wsYC8w==",
+      "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjwG0GGcTW/PPg6KVud8F9GLWYuAV1rrw1BKAqY0oh4jcUqg15oYF1+qkGR2x2ZHM4DQnWKQ7cJgYbfncz/lYg==",
+      "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7KMFpTkHC/zoExs+PwP8jDCWcrK9H6L7soowT80CUx3e+nxP/AFnq0AQAW5W76z2WYbLAYCRyPfwYFG6zkvQRw==",
+      "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xrlmRCnKZJLHxyyLIqkZjNXqgxnKdZxfItrPkjI+6pkRo5lHX8YvSZlWrSI5AVwLMi4HbNWP7064hcAWeZKp5w==",
+      "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-leXiwfiIkW7Gmn7cgnNcdtNAU70SjmKW3jxGj1iKHOvdn0zRWsgv/l2OJUO5zdGdiv2VRFnAsxxhDgMzofPdWg==",
+      "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
+      "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "Steeltoe.Common/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W7nHKJguGBBFHt41vEdcjp1vTx3aTi2v6MeBnRLcjm6OiCUj/mkvCzpQ7B6U9T0rPFT7/6xW4U32YkgVHs20Mg==",
+      "path": "steeltoe.common/2.1.0",
+      "hashPath": "steeltoe.common.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Common.Http/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CX9/3oNXEoC5XYWy1OTKdVxSNzlhdA2CMaR3goCQ8JMbKKUDYhsxPbfrjLc8HzjWJnJXJ6COI+hu9QkQH8ncDw==",
+      "path": "steeltoe.common.http/2.1.0",
+      "hashPath": "steeltoe.common.http.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Extensions.Logging.DynamicLogger/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-msT51/ro/R/BI9AvxU5WSkMUQ0sjDxXgO8Q5vJOd2/iflkhen8rXtc7bM7Jkds4ORqpOeznGSnBQLd3ZkD2agg==",
+      "path": "steeltoe.extensions.logging.dynamiclogger/2.1.0",
+      "hashPath": "steeltoe.extensions.logging.dynamiclogger.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Management.CloudFoundryCore/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15KurxEA09/M8y7QigOoCkjmKNnLLuPynpli2/UlRJoNlKVsigT+byR7YkGy88fZoQe17q86TLcxlBSzDT5JLQ==",
+      "path": "steeltoe.management.cloudfoundrycore/2.1.0",
+      "hashPath": "steeltoe.management.cloudfoundrycore.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Management.Diagnostics/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1bacIakdqPmXsdBOEc/nxITM+iZn5Lsy8h7q/ghq0kSbv2sDNznD0WWLsVKKB0G7owW0QpBINM9iIdgOOmtaYw==",
+      "path": "steeltoe.management.diagnostics/2.1.0",
+      "hashPath": "steeltoe.management.diagnostics.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Management.EndpointBase/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8IIXOjW+L5FVF0/b/tQjEYH8oaHdsR6knKFHsl1/Ryuh7NfgwJ/Rw4eIAV9H38olb9bKQ4GD/V5u4D3E9JAiQA==",
+      "path": "steeltoe.management.endpointbase/2.1.0",
+      "hashPath": "steeltoe.management.endpointbase.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Management.EndpointCore/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N++LwM2b8QlE10buIQuR4nFahJEeQoitUPp9sJSEgkrc9UI9lS4B07HOqopWuFkXQ08bGd/jPBRH/wVDD5KaPQ==",
+      "path": "steeltoe.management.endpointcore/2.1.0",
+      "hashPath": "steeltoe.management.endpointcore.2.1.0.nupkg.sha512"
+    },
+    "Steeltoe.Management.OpenCensus/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c2wbOWS0OfrB3DJBuSeicTvy8Io0eJaFpQi8QBuZ6tdRdcHxHNRxR2mR38f3nmJ2o4/jHjH6i9TODJYDly4N7w==",
+      "path": "steeltoe.management.opencensus/2.1.0",
+      "hashPath": "steeltoe.management.opencensus.2.1.0.nupkg.sha512"
     },
     "System.ComponentModel/4.3.0": {
       "type": "package",
@@ -558,12 +947,33 @@
       "path": "system.diagnostics.tracesource/4.3.0",
       "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
+    "System.IO.FileSystem.DriveInfo/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gz8sWY1XgW7gXYOGByug+yQKzObmYns9rsdS57rwHy+amIQt9vi8evYB20UXrOB5CR205cruh9xEjBEzGWnL7w==",
+      "path": "system.io.filesystem.driveinfo/4.3.1",
+      "hashPath": "system.io.filesystem.driveinfo.4.3.1.nupkg.sha512"
+    },
     "System.Linq.Queryable/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
       "path": "system.linq.queryable/4.3.0",
       "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.Net.Http/4.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7rCqIbkC/P2+A00NoDH5gnvFhADmX7Dc4INvsOajbU1MVhktE9vZNrjPtF82N6Uo7obK+yzlrPUv/M+snnN/9w==",
+      "path": "system.net.http/4.3.3",
+      "hashPath": "system.net.http.4.3.3.nupkg.sha512"
+    },
+    "System.Net.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
+      "path": "system.net.primitives/4.3.0",
+      "hashPath": "system.net.primitives.4.3.0.nupkg.sha512"
     },
     "System.Runtime.Loader/4.0.0": {
       "type": "package",
